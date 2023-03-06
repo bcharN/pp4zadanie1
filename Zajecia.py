@@ -11,10 +11,3 @@ class Zajecia:
     def studenci(self):
         return self.listaStudentow
 
-if __name__=="__main__":
-    zaj = Zajecia()
-    for i in range(1,15):
-        zaj.zapiszStudenta(f"student{i}")
-    
-    print(zaj.studenci())
-    print(zaj.liczbaStudentow())

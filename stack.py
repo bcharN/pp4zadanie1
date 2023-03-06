@@ -17,12 +17,3 @@ class Stack:
         else: return False
 
 
-if __name__=="__main__":
-    st1 = Stack()
-    
-    for i in range(1,10):
-        st1.push(i)
-    while(not st1.isEmpty()):
-        print(st1.pop())
-    print(st1.pop())
-
